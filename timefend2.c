@@ -114,9 +114,10 @@ timefend()
 		
 	if ((castle_1 + castle_2 + castle_3) == 0)
 	{
-		vsync(700);	
+		vsync(700);
 		init_satb();
 		reset_satb();
+		satb_update(); /* pasque si tu maj pas, ça marche pas */
 		main();
 	}	
 	else {
