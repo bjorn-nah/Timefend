@@ -7,6 +7,9 @@ main()
 	cls();
 	init_satb();
 	reset_satb();
+
+	set_color(0,0); /* Je veux le noir */
+	set_color(1,511); /* Je veux le blanc */
 	set_font_color(1, 0);
 	load_default_font();
 	put_string("TimeFend", 12, 12);

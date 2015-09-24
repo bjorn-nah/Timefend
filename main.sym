@@ -14,14 +14,14 @@ _mov32.sub			f69d	 00
 	.l1			f69f	 00
 SIZE_16x64			0030	 f0
 _table_x_2			2a03	 f8
-LL30				a989	 06
-	.x01072			a99f	 06
-LL28				a90f	 06
+LL30				a98e	 06
+	.x01072			a9a4	 06
+LL28				a914	 06
 _gfx_point.2			f666	 00
 psg_swptime			24e7	 f8
-LL243				b48e	 08
-LL116				b963	 06
-	.x01733			b979	 06
+LL243				b4b6	 08
+LL116				b968	 06
+	.x01733			b97e	 06
 psg_astop			c17b	 02
 	.loop			c184	 02
 _bm_errno			f99a	 00
@@ -32,7 +32,7 @@ mapbat_top			26c8	 f8
 psg_fmdelay			2433	 f8
 PSG_DDA				0040	 f0
 psg_noise			0807	 f0
-LL99				b7cb	 06
+LL99				b7d0	 06
 psg_env7			cc36	 02
 gfx_getaddr			af33	 01
 ugt_y1				e8e7	 00
@@ -72,8 +72,8 @@ _strncmp.3			e674	 00
 	.minus			e684	 00
 	.cmplp			e678	 00
 setbgmap			0000	 f0
-LL65				af79	 06
-	.x01343			af8e	 06
+LL65				af7e	 06
+	.x01343			af93	 06
 _set_color_rgb.4		f3fb	 00
 zp_ptr1				2012	 f8
 LL153				a0b7	 07
@@ -94,18 +94,18 @@ _put_string.main		ef05	 00
 	.l3			ef32	 00
 _dl				20fe	 f0
 _table_x_3			2a65	 f8
-LL31				a9a2	 06
-	.x01076			a9b8	 06
-LL29				a970	 06
-	.x01068			a986	 06
+LL31				a9a7	 06
+	.x01076			a9bd	 06
+LL29				a975	 06
+	.x01068			a98b	 06
 LL0				4000	 03
 _joy				fa49	 00
-LL244				b48e	 08
-	.x03327			b4ee	 08
-	.x_03315		b497	 08
-LL117				b81c	 06
-	.x01693			b82e	 06
-	.x01691			b824	 06
+LL244				b4b6	 08
+	.x03335			b516	 08
+	.x_03323		b4bf	 08
+LL117				b821	 06
+	.x01693			b833	 06
+	.x01691			b829	 06
 psgf_jump			c478	 02
 	.x_00619		c481	 02
 msflag				2984	 f8
@@ -133,8 +133,8 @@ lib2_load_bat			a64a	 01
 	.l2			a653	 01
 	.l1			a64e	 01
 __ldb_s				0000	 f0
-LL66				afa2	 06
-	.x01351			afb7	 06
+LL66				afa7	 06
+	.x01351			afbc	 06
 mapctablebank			26c0	 f8
 _bank_base			0000	 f0
 LL154				a0d3	 07
@@ -154,8 +154,8 @@ psg_panpot			25d1	 f8
 XRES_SHARP			0000	 f0
 color_reg_h			0403	 f0
 video_data_h			0003	 f0
-LL32				a9bb	 06
-	.x01080			a9d1	 06
+LL32				a9c0	 06
+	.x01080			a9d6	 06
 LL1				a06e	 06
 lib2_bm_write.4			b08e	 01
 	.l2			b0a8	 01
@@ -167,12 +167,12 @@ eqzp				e860	 00
 	.x_ne			e86d	 00
 VADDR_INC_32			0008	 f0
 lsrw				0000	 f0
-LL245				b4f4	 08
-LL120				b87c	 06
-	.x01728			b95b	 06
-	.x_01705		b892	 06
-LL118				b846	 06
-	.x01699			b85e	 06
+LL245				b51c	 08
+LL120				b881	 06
+	.x01728			b960	 06
+	.x_01705		b897	 06
+LL118				b84b	 06
+	.x01699			b863	 06
 __spr_flag			201b	 f8
 START_BANK			0000	 f0
 VADDR_INC_1			0000	 f0
@@ -205,8 +205,8 @@ user_hsync			e169	 00
 clock_tt			2692	 f8
 psg_fmhdr			22d9	 f8
 ac_identflag			1aff	 f0
-LL67				afe9	 06
-	.x01364			affe	 06
+LL67				afee	 06
+	.x01364			b003	 06
 _line_adjust			297e	 f8
 _memcmp.3			e61b	 00
 	.x_00121		e63b	 00
@@ -227,7 +227,7 @@ mapbat_bottom			26c9	 f8
 _ram_hdwr_tia_rts		26d3	 f8
 psg_wavehdr			22d3	 f8
 colorport			0400	 f0
-LL33				a9d4	 06
+LL33				a9d9	 06
 LL2				a0ec	 06
 _bm_testram			f827	 00
 	.l3			f840	 00
@@ -237,10 +237,10 @@ mapwidth			26b4	 f8
 rcr_on				e2a4	 00
 BGMAP_SIZE_32x64		0004	 f0
 __lbeq				0000	 f0
-LL246				b4f1	 08
-LL119				b861	 06
-	.x_01702		b878	 06
-LL121				b963	 06
+LL246				b519	 08
+LL119				b866	 06
+	.x_01702		b87d	 06
+LL121				b968	 06
 joyold				2232	 f8
 vsync_hook			2208	 f8
 psgf_contfromsave		c448	 02
@@ -260,12 +260,12 @@ psg_fadecount			2603	 f8
 _scroll				f538	 00
 _spr_x				f28f	 00
 sub				0000	 f0
-LL70				b00a	 06
-	.x01369			b01c	 06
-	.x01367			b012	 06
-LL68				afc3	 06
-	.x01356			afd5	 06
-	.x01354			afcb	 06
+LL70				b00f	 06
+	.x01369			b021	 06
+	.x01367			b017	 06
+LL68				afc8	 06
+	.x01356			afda	 06
+	.x01354			afd0	 06
 SOFT_RESET			0006	 f0
 JOY_BITUP			0004	 f0
 bram_lock			1803	 f0
@@ -283,13 +283,13 @@ _bm_open			fa01	 00
 gezp				e95e	 00
 ac_port				1a00	 f0
 __stw_s				0000	 f0
-LL34				ae1b	 06
+LL34				ae20	 06
 LL3				a0de	 06
 psg_bytefunctbl			c374	 02
 _init_satb			f39b	 00
 	.l1			f39d	 00
 le				e9ae	 00
-LL122				b960	 06
+LL122				b965	 06
 psg_bios			fbb7	 00
 	.functbl		fbd2	 00
 	.indir_jmp		fbcf	 00
@@ -320,10 +320,10 @@ __fbank				200d	 f8
 _spr_y				f2ac	 00
 smul				ea18	 00
 psg_cntdown			231f	 f8
-LL71				b077	 06
-	.x01390			b08c	 06
-LL69				b030	 06
-	.x01377			b045	 06
+LL71				b07c	 06
+	.x01390			b091	 06
+LL69				b035	 06
+	.x01377			b04a	 06
 psg_bank			c064	 02
 _ram_hdwr_tia_size		26d1	 f8
 LL157				a18a	 07
@@ -346,17 +346,17 @@ psg_fadespeed			2601	 f8
 _adcw				0000	 f0
 _cx				20fc	 f0
 __addwi				0000	 f0
-LL35				aa6f	 06
-	.x01110			aa84	 06
+LL35				aa74	 06
+	.x01110			aa89	 06
 LL4				a0ec	 06
 _spr_pal			f30d	 00
 JOY_IV				0002	 f0
-LL123				bb11	 06
-	.x01788			bb27	 06
+LL123				bb16	 06
+	.x01788			bb2c	 06
 psg_play			c0c1	 02
 psg_envduratn			23df	 f8
 HUC				0001	 f0
-_player_machine			a845	 06
+_player_machine			a84a	 06
 smod				eb6b	 00
 psg_envlevel_l			23af	 f8
 _al				20f8	 f0
@@ -371,9 +371,9 @@ _si				20ee	 f0
 psgf_freqmod			c469	 02
 _rcr_on				e2a4	 00
 psg_ch				0800	 f0
-LL72				b051	 06
-	.x01382			b063	 06
-	.x01380			b059	 06
+LL72				b056	 06
+	.x01382			b068	 06
+	.x01380			b05e	 06
 _counter			299f	 f8
 fntcpy				0000	 f0
 ac_data1_alt			1a01	 f0
@@ -391,15 +391,15 @@ decw				0000	 f0
 ARG_LABEL			0006	 f0
 color_reg_l			0402	 f0
 video_data_l			0002	 f0
-LL36				aa31	 06
-	.x01100			aa47	 06
-LL5				a835	 06
+LL36				aa36	 06
+	.x01100			aa4c	 06
+LL5				a83a	 06
 _get_joy_events.sub		fabb	 00
 _tstw				0000	 f0
 ac_offset1_l			1a05	 f0
-LL124				b98a	 06
-	.x01739			b99c	 06
-	.x01737			b992	 06
+LL124				b98f	 06
+	.x01739			b9a1	 06
+	.x01737			b997	 06
 psg_fm				c090	 02
 mapbank				26b1	 f8
 _main				b3f6	 08
@@ -415,15 +415,15 @@ bat_height			26d6	 f8
 s_bottom			272e	 f8
 psg_percusshdr			22d7	 f8
 __asrw				0000	 f0
-_player_knight_0		a9d5	 06
-	.x01094			aa27	 06
-	.x_01090		aa11	 06
-	.x01086			a9f9	 06
-	.x_01082		a9e3	 06
+_player_knight_0		a9da	 06
+	.x01094			aa2c	 06
+	.x_01090		aa16	 06
+	.x01086			a9fe	 06
+	.x_01082		a9e8	 06
 _ram_hdwr_tia_src		26cd	 f8
 timer_ctrl			0c01	 f0
-LL73				b0be	 06
-	.x01403			b0d3	 06
+LL73				b0c3	 06
+	.x01403			b0d8	 06
 _gfx_plot.3			f654	 00
 _ram_hdwr_tia_dest		26cf	 f8
 LL161				a51f	 07
@@ -447,14 +447,14 @@ lib2_load_map_8			a780	 01
 	.l2			a793	 01
 __lbra				0000	 f0
 _table_x			29a1	 f8
-LL37				aa50	 06
-	.x01105			aa66	 06
+LL37				aa55	 06
+	.x01105			aa6b	 06
 LL6				a3b4	 06
 	.x00846			a3cb	 06
 ac_offset1_m			1a06	 f0
-_physique			bed5	 06
-LL125				b9f4	 06
-	.x01754			ba0c	 06
+_physique			beda	 06
+LL125				b9f9	 06
+	.x01754			ba11	 06
 udiv				eb26	 00
 	.sdiv_end		eb53	 00
 	.sdiv_begin		eb3b	 00
@@ -514,11 +514,11 @@ _ennemy_cre			a000	 08
 	.x_02599		a0e5	 08
 	.x_02587		a07d	 08
 	.x_02578		a033	 08
-_player_knight_1		ae1c	 06
-	.x01293			ae78	 06
-	.x_01289		ae62	 06
-	.x01285			ae4a	 06
-	.x_01281		ae34	 06
+_player_knight_1		ae21	 06
+	.x01293			ae7d	 06
+	.x_01289		ae67	 06
+	.x01285			ae4f	 06
+	.x_01281		ae39	 06
 _farpeekb.1			fb2a	 00
 _set_joy_callback.4		fa89	 00
 	.l1			faae	 00
@@ -542,9 +542,9 @@ tstw				0000	 f0
 adcw				0000	 f0
 __stb_s				0000	 f0
 __addw				0000	 f0
-LL74				b098	 06
-	.x01395			b0aa	 06
-	.x01393			b0a0	 06
+LL74				b09d	 06
+	.x01395			b0af	 06
+	.x01393			b0a5	 06
 video_reg			0000	 f0
 LL162				a3ba	 07
 	.x02070			a3cc	 07
@@ -564,16 +564,16 @@ JOY_SEL				0004	 f0
 load_sprites			0000	 f0
 __stbi_s			0000	 f0
 _table_y			29c1	 f8
-LL40				aafb	 06
-	.x01136			ab10	 06
-LL38				aa6f	 06
+LL40				ab00	 06
+	.x01136			ab15	 06
+LL38				aa74	 06
 LL7				a3ce	 06
 	.x_00849		a3e4	 06
 _bm_id				f99f	 00
 _gfx_line.5			f678	 00
 _put_char.2			ee2b	 00
-LL126				ba0f	 06
-	.x_01757		ba26	 06
+LL126				ba14	 06
+	.x_01757		ba2b	 06
 _get_map_width			f09d	 00
 _load_font.2			eda2	 00
 	.x_00243		edaf	 00
@@ -595,16 +595,16 @@ divu8				e6ae	 00
 	.l2			e6bd	 00
 	.l1			e6b6	 00
 psg_detune			2487	 f8
-_player_knight_2		b33d	 06
-	.x01527			b39e	 06
-	.x_01523		b388	 06
-	.x01519			b370	 06
-	.x_01515		b35a	 06
+_player_knight_2		b342	 06
+	.x01527			b3a3	 06
+	.x_01523		b38d	 06
+	.x01519			b375	 06
+	.x_01515		b35f	 06
 _load_vram.3			e3c4	 00
 lbhs				0000	 f0
 CDROM				0000	 f0
-LL75				b0f1	 06
-	.x01413			b107	 06
+LL75				b0f6	 06
+	.x01413			b10c	 06
 psg_init			c017	 02
 	.loop1			c031	 02
 psg_panpotaccum			24b7	 f8
@@ -624,8 +624,8 @@ spr_x				0000	 f0
 _set_screen_size		f583	 00
 _rndzp				2014	 f8
 lbpl				0000	 f0
-LL39				aab5	 06
-	.x01123			aaca	 06
+LL39				aaba	 06
+	.x01123			aacf	 06
 _table_z			29e1	 f8
 LL8				a3e8	 06
 _put_char.3			ee20	 00
@@ -637,11 +637,11 @@ _strcmp.2			e650	 00
 	.cont			e660	 00
 	.minus			e65c	 00
 	.cmplp			e650	 00
-LL127				ba2a	 06
-	.x01783			bb09	 06
-	.x_01760		ba40	 06
-LL41				ab41	 06
-	.x01149			ab56	 06
+LL127				ba2f	 06
+	.x01783			bb0e	 06
+	.x_01760		ba45	 06
+LL41				ab46	 06
+	.x01149			ab5b	 06
 _bm_free			f887	 00
 	.ok			f8ba	 00
 	.err			f8c6	 00
@@ -673,7 +673,7 @@ _init				e028	 00
 	.fntld			e0d1	 00
 	.l2			e039	 00
 FLIP_X				0008	 f0
-_player_knight_3		b7db	 06
+_player_knight_3		b7e0	 06
 writevram			f5ad	 00
 	.x_00364		f5c9	 00
 	.x_00363		f5be	 00
@@ -690,8 +690,8 @@ __incw_s			0000	 f0
 LL164				a4c8	 07
 _ennemy_machine			a000	 07
 	.x01932			a043	 07
-LL76				b128	 06
-	.x01424			b13e	 06
+LL76				b12d	 06
+	.x01424			b143	 06
 psg_octavetbl			c36c	 02
 spr_y				0000	 f0
 batcpy				0000	 f0
@@ -720,11 +720,11 @@ _strncpy.3			e5c7	 00
 _ram_hdwr_tia			26cc	 f8
 psg_transpose			2373	 f8
 _nb_bank			000a	 f0
-LL130				bcc6	 06
-	.x01845			bcdc	 06
-LL128				bb11	 06
-LL42				ab87	 06
-	.x01162			ab9c	 06
+LL130				bccb	 06
+	.x01845			bce1	 06
+LL128				bb16	 06
+LL42				ab8c	 06
+	.x01162			aba1	 06
 _set_font_color.2		ed04	 00
 random				e818	 00
 	.l1			e826	 00
@@ -773,8 +773,8 @@ LL221				b15b	 08
 LL199				b006	 08
 _tics_knight			298b	 f8
 FLIP_Y				0080	 f0
-_player_knight_4		b7e6	 06
-	.x01687			b80b	 06
+_player_knight_4		b7eb	 06
+	.x01687			b810	 06
 psgf_notused			c3da	 02
 psg_dopercuss			c4c0	 02
 _rts				e121	 00
@@ -787,7 +787,7 @@ ltzp				e907	 00
 	.geta_ult		e919	 00
 LL165				a44c	 07
 	.x02101			a460	 07
-LL77				b33c	 06
+LL77				b341	 06
 _mouse_disable			fa6e	 00
 _map_put_tile.3			f4e9	 00
 __calls				0000	 f0
@@ -798,12 +798,12 @@ _set_map_data.1			eff9	 00
 	.x_00285		f01e	 00
 	.l1			f055	 00
 lib2_put_number.3		ab32	 01
-LL131				bb38	 06
-	.x01794			bb4a	 06
-	.x01792			bb40	 06
-LL129				bb0e	 06
-LL43				abeb	 06
-	.x01180			ac00	 06
+LL131				bb3d	 06
+	.x01794			bb4f	 06
+	.x01792			bb45	 06
+LL129				bb13	 06
+LL43				abf0	 06
+	.x01180			ac05	 06
 psg_mstop			c0ed	 02
 	.pause2			c124	 02
 	.out			c12a	 02
@@ -846,10 +846,10 @@ ___case				ebb0	 00
 	.begin_case		ebcc	 00
 psg_envrels_h			23f7	 f8
 LL166				a46e	 07
-LL80				b1a3	 06
-	.x01445			b1b9	 06
-LL78				b151	 06
-	.x01431			b167	 06
+LL80				b1a8	 06
+	.x01445			b1be	 06
+LL78				b156	 06
+	.x01431			b16c	 06
 _timer				e2c7	 00
 	.exit2			e2dd	 00
 	.exit			e2df	 00
@@ -885,11 +885,11 @@ _strcpy.2			e579	 00
 	.cpylp			e579	 00
 psg_swptmcntdn			24f3	 f8
 setxres				0000	 f0
-LL132				bba2	 06
-	.x01809			bbba	 06
-LL44				aba8	 06
-	.x01167			abba	 06
-	.x01165			abb0	 06
+LL132				bba7	 06
+	.x01809			bbbf	 06
+LL44				abad	 06
+	.x01167			abbf	 06
+	.x01165			abb5	 06
 _put_string.3			eef5	 00
 mapbat_ptr			26c4	 f8
 mapnbtile			26be	 f8
@@ -926,10 +926,10 @@ psg_peptr_l			244b	 f8
 irq_status			1403	 f0
 __farptr_i			0000	 f0
 LL167				a51f	 07
-LL81				b1cc	 06
-	.x01452			b1e2	 06
-LL79				b17a	 06
-	.x01438			b190	 06
+LL81				b1d1	 06
+	.x01452			b1e7	 06
+LL79				b17f	 06
+	.x01438			b195	 06
 load_font			e3b2	 00
 _set_sprpal			0000	 f0
 vec_off				0000	 f0
@@ -944,8 +944,8 @@ mousread			fba5	 00
 JOY_BITSEL			0002	 f0
 XRES_SOFT			0004	 f0
 _dx				20fe	 f0
-LL45				ac4f	 06
-	.x01198			ac64	 06
+LL45				ac54	 06
+	.x01198			ac69	 06
 hde				26df	 f8
 wait_vsync			fc2c	 00
 	.callback		fc9c	 00
@@ -959,8 +959,8 @@ wait_vsync			fc2c	 00
 	.l2			fc3d	 00
 	.l1			fc32	 00
 psg_freqlo			0802	 f0
-LL133				bbbd	 06
-	.x_01812		bbd4	 06
+LL133				bbc2	 06
+	.x_01812		bbd9	 06
 psgf_fmcorrect			c46b	 02
 irq_cnt				2241	 f8
 bhs				0000	 f0
@@ -985,8 +985,8 @@ calc_vram_addr			e426	 00
 psg_irqflag			20e6	 f0
 scr_mode			2244	 f8
 VADDR_INC_128			0018	 f0
-LL82				b208	 06
-	.x01462			b21e	 06
+LL82				b20d	 06
+	.x01462			b223	 06
 psgf_octup			c3eb	 02
 _spr_get_pal			f31d	 00
 negw				0000	 f0
@@ -1007,15 +1007,15 @@ blo				0000	 f0
 psg_enva			cc63	 02
 _set_map_data.4			f06e	 00
 _load_background		0000	 f0
-LL46				ac0c	 06
-	.x01185			ac1e	 06
-	.x01183			ac14	 06
+LL46				ac11	 06
+	.x01185			ac23	 06
+	.x01183			ac19	 06
 psg_fmptr_l			2403	 f8
 psg_currvoice			22df	 f8
 JOY_BITII			0001	 f0
 __stwp				0000	 f0
-LL134				bbd8	 06
-	.x01840			bcbe	 06
+LL134				bbdd	 06
+	.x01840			bcc3	 06
 _alive_iter			2ad4	 f8
 psgf_voladjust			c4a4	 02
 gfx_bittbl2			af2b	 01
@@ -1048,7 +1048,7 @@ _gfx_clear			f624	 00
 scroll_xh			26e4	 f8
 vdc_dcr				2243	 f8
 LL225				b0aa	 08
-LL100				b5af	 06
+LL100				b5b4	 06
 psgf_panpot			c420	 02
 _mouse_enable			fa74	 00
 psg_freq_h			2343	 f8
@@ -1056,8 +1056,8 @@ _subw				0000	 f0
 joyport				1000	 f0
 _table_z_2			2a43	 f8
 maptiletype			26b8	 f8
-LL83				b244	 06
-	.x01472			b25a	 06
+LL83				b249	 06
+	.x01472			b25f	 06
 __arg				2ad7	 f8
 joybuf6				26a2	 f8
 __phw				0000	 f0
@@ -1080,13 +1080,13 @@ _bcd_init.2			f732	 00
 set_write			e409	 00
 psg_envptr_off			23a3	 f8
 ENV_DLY				0000	 f0
-LL47				acb3	 06
-	.x01216			acc8	 06
+LL47				acb8	 06
+	.x01216			accd	 06
 psg_tmpptr1			20ea	 f0
 update_satb			0000	 f0
 color_data_h			0405	 f0
 __aslw				0000	 f0
-LL135				bcc6	 06
+LL135				bccb	 06
 _get_joy_events.1		faba	 00
 _bm_exist			f960	 00
 	.noerr			f975	 00
@@ -1100,11 +1100,11 @@ _bcd_add.2			f7b2	 00
 	.l1			f7e2	 00
 	.x1			f7f7	 00
 s_cr				271d	 f8
-LL13				a835	 06
+LL13				a83a	 06
 __lsrw				0000	 f0
 LL226				b0f5	 08
-LL101				b5bf	 06
-	.x01611			b5f5	 06
+LL101				b5c4	 06
+	.x01611			b5fa	 06
 _ram_knight_addr2		2ac9	 f8
 _levelpal0			7bf6	 05
 psgf_rptbegin			c45e	 02
@@ -1116,8 +1116,8 @@ lib2_bm_enable			b210	 01
 psg_envrels_l			23eb	 f8
 add				0000	 f0
 addw				0000	 f0
-LL84				b280	 06
-	.x01482			b296	 06
+LL84				b285	 06
+	.x01482			b29b	 06
 lib2_bm_checksum		b243	 01
 	.l3			b270	 01
 	.l2			b26b	 01
@@ -1139,12 +1139,12 @@ rcr5				e28a	 00
 psg_envc			cc80	 02
 bat_hmask			26d7	 f8
 setvraddr			0000	 f0
-LL50				acd4	 06
-	.x01221			ace6	 06
-	.x01219			acdc	 06
-LL48				ac70	 06
-	.x01203			ac82	 06
-	.x01201			ac78	 06
+LL50				acd9	 06
+	.x01221			aceb	 06
+	.x01219			ace1	 06
+LL48				ac75	 06
+	.x01203			ac87	 06
+	.x01201			ac7d	 06
 _init_cnt_alive			2ad6	 f8
 _leveltiles			4089	 03
 _knightpal			7ecc	 04
@@ -1153,7 +1153,7 @@ psg_driver			e2e3	 00
 	.noreset		e30a	 00
 SPR_VRAM			0000	 f0
 subw				0000	 f0
-LL136				bcc3	 06
+LL136				bcc8	 06
 _get_joy_events.2		faaf	 00
 _bm_rawwrite.2			f939	 00
 	.err			f958	 00
@@ -1166,7 +1166,7 @@ load_vram			e3c4	 00
 	.l1			e3cf	 00
 	.l3			e3e5	 00
 s_yl				270d	 f8
-LL14				a5e6	 06
+LL14				a5eb	 06
 psg_mstat			c0c9	 02
 	.next			c0d7	 02
 	.empty			c0d5	 02
@@ -1177,7 +1177,7 @@ PSG_INHIBIT			0080	 f0
 vdc_mwr				2242	 f8
 __fgetb				0000	 f0
 LL227				b172	 08
-LL102				b477	 06
+LL102				b47c	 06
 psgf_sweeptime			c477	 02
 psg_settempo			c0b1	 02
 	.okvalue		c0b9	 02
@@ -1190,8 +1190,8 @@ _cmp32.2			f716	 00
 _mul32.2			f6cd	 00
 srand				e77b	 00
 	.exit			e7a0	 00
-LL85				b2bc	 06
-	.x01492			b2d2	 06
+LL85				b2c1	 06
+	.x01492			b2d7	 06
 lib2_bm_setup_ptr		b279	 01
 	.ok			b2dc	 01
 	.l2			b2a6	 01
@@ -1222,15 +1222,15 @@ _satb_update			f335	 00
 set_read			e3ec	 00
 mapbat_top_base			26c6	 f8
 psg_volchgaccum			249f	 f8
-LL51				ad53	 06
-	.x01245			ad68	 06
-LL49				ad17	 06
-	.x01234			ad2c	 06
+LL51				ad58	 06
+	.x01245			ad6d	 06
+LL49				ad1c	 06
+	.x01234			ad31	 06
 psgf_octdown			c3f2	 02
 psg_envduratn_h			23d3	 f8
-LL137				be3b	 06
-	.x01897			be67	 06
-	.x01893			be51	 06
+LL137				be40	 06
+	.x01897			be6c	 06
+	.x01893			be56	 06
 psg_off				c00d	 02
 	.nostop			c013	 02
 psg_stack_0			2517	 f8
@@ -1251,10 +1251,10 @@ mapcpy				0000	 f0
 _ch				20fd	 f0
 _ax				20f8	 f0
 _bp				20ec	 f0
-LL15				a82d	 06
+LL15				a832	 06
 LL230				b194	 08
 LL228				b293	 08
-LL103				b4de	 06
+LL103				b4e3	 06
 mshorz				2986	 f8
 _bm_sizeof			f976	 00
 	.l1			f997	 00
@@ -1264,8 +1264,8 @@ _cls.1				ecd0	 00
 _spr_get_pattern		f2e2	 00
 FONT_BANK			0001	 f0
 setmap				0000	 f0
-LL86				b2dc	 06
-	.x01498			b2f2	 06
+LL86				b2e1	 06
+	.x01498			b2f7	 06
 _bcd_set.ascii			f763	 00
 	.l4			f78d	 00
 	.l3			f774	 00
@@ -1301,13 +1301,13 @@ psg_enve			cc9d	 02
 nezp				e99d	 00
 	.x1_eq			e9ac	 00
 	.x_ne			e9aa	 00
-LL52				adb7	 06
-	.x01263			adcc	 06
-LL140				bd32	 06
-	.x_01860		bd49	 06
-LL138				bced	 06
-	.x01851			bcff	 06
-	.x01849			bcf5	 06
+LL52				adbc	 06
+	.x01263			add1	 06
+LL140				bd37	 06
+	.x_01860		bd4e	 06
+LL138				bcf2	 06
+	.x01851			bd04	 06
+	.x01849			bcfa	 06
 readvram			f593	 00
 ulezp				e9be	 00
 psg_stack_1			2522	 f8
@@ -1329,15 +1329,15 @@ _strncat.3			e58e	 00
 	.endlp			e592	 00
 mapbat_x			26ca	 f8
 psg_sweepamt_l			24cf	 f8
-LL16				a5ed	 06
-	.x00927			a601	 06
+LL16				a5f2	 06
+	.x00927			a606	 06
 scroll_top			26f0	 f8
 scroll_xl			26e0	 f8
 __plw				0000	 f0
 SUPPORT_MOUSE			0001	 f0
 LL231				b1af	 08
 LL229				b2a7	 08
-LL104				b545	 06
+LL104				b54a	 06
 _knight				60ca	 04
 s_idx				26fc	 f8
 _hsync_hndl			e1d1	 00
@@ -1349,8 +1349,8 @@ psg_freq_l			2337	 f8
 mousinit			fb93	 00
 SIZE_16x16			0000	 f0
 __sp				2000	 f8
-LL87				b2fc	 06
-	.x01504			b312	 06
+LL87				b301	 06
+	.x01504			b317	 06
 lib2_bm_unlock			b227	 01
 psg_stkoff			25a1	 f8
 LL175				a8d8	 07
@@ -1362,15 +1362,15 @@ hook				ec67	 00
 smul_no_invert_secondary	ea50	 00
 psg_volchg			2493	 f8
 joyena				2227	 f8
-LL53				ad74	 06
-	.x01250			ad86	 06
-	.x01248			ad7c	 06
+LL53				ad79	 06
+	.x01250			ad8b	 06
+	.x01248			ad81	 06
 lt				e871	 00
 _rndn1				2745	 f8
-LL141				bd4d	 06
-	.x01888			be33	 06
-LL139				bd17	 06
-	.x01857			bd2f	 06
+LL141				bd52	 06
+	.x01888			be38	 06
+LL139				bd1c	 06
+	.x01857			bd34	 06
 _j1				2995	 f8
 _nb_ennemy_2			2a63	 f8
 psg_stack_2			252d	 f8
@@ -1381,9 +1381,9 @@ _strcat.2			e56d	 00
 	.endlp			e56d	 00
 joyhook				2686	 f8
 psg_tone_h			25b9	 f8
-LL17				a604	 06
+LL17				a609	 06
 LL232				b1e2	 08
-LL105				b7c8	 06
+LL105				b7cd	 06
 _vsync_hndl			e16f	 00
 	.out			e1d0	 00
 	.l3			e1cd	 00
@@ -1396,9 +1396,9 @@ init_psg			e542	 00
 	.clear			e550	 00
 vload				0000	 f0
 ac_shftreg_0			1ae0	 f0
-LL90				b7cb	 06
-LL88				b31c	 06
-	.x01510			b332	 06
+LL90				b7d0	 06
+LL88				b321	 06
+	.x01510			b337	 06
 psg_drivevoice			c320	 02
 ugezp				e969	 00
 psg_drive			c20b	 02
@@ -1421,7 +1421,7 @@ psg_song			22e0	 f8
 PSG_SUBPAUSE			0040	 f0
 BATVAL				0000	 f0
 __ldwp				0000	 f0
-LL54				ae1b	 06
+LL54				ae20	 06
 psg_wave			c07a	 02
 _peek				fb15	 00
 umul				ea6d	 00
@@ -1431,7 +1431,7 @@ ne				e96f	 00
 _rndn2				2746	 f8
 maptilebank			26b9	 f8
 scr_height			26da	 f8
-LL142				be3b	 06
+LL142				be40	 06
 _nb_ennemy_3			2ac5	 f8
 psgf_detune			c46e	 02
 psg_stack_3			2538	 f8
@@ -1445,15 +1445,15 @@ setvec				0000	 f0
 JOY_II				0002	 f0
 color_data			0404	 f0
 __stw				0000	 f0
-LL20				a81f	 06
-LL18				a61c	 06
+LL20				a824	 06
+LL18				a621	 06
 psg_pc				c0a6	 02
 ac_cntrol1			1a09	 f0
 video_data			0002	 f0
 LL233				b22d	 08
-LL106				b608	 06
-	.x01617			b61a	 06
-	.x01615			b610	 06
+LL106				b60d	 06
+	.x01617			b61f	 06
+	.x01615			b615	 06
 msvert				2985	 f8
 psg_fmcorrect			2427	 f8
 IRQ1				0001	 f0
@@ -1466,8 +1466,8 @@ _bm_size			f8d1	 00
 	.err			f909	 00
 ac_shftreg_1			1ae1	 f0
 __popw				0000	 f0
-LL91				b40f	 06
-LL89				b33c	 06
+LL91				b414	 06
+LL89				b341	 06
 umod				eb6b	 00
 	.smod_end		eb98	 00
 	.smod_begin		eb80	 00
@@ -1492,9 +1492,9 @@ lib2_gfx_point.2		aedd	 01
 ult				e89a	 00
 _reset				e010	 00
 spr_pri				0000	 f0
-LL55				add8	 06
-	.x01268			adea	 06
-	.x01266			ade0	 06
+LL55				addd	 06
+	.x01268			adef	 06
+	.x01266			ade5	 06
 _vram_addr.2			ef4d	 00
 umul16				ea91	 00
 	.l2			eab4	 00
@@ -1504,7 +1504,7 @@ psg_envduratn_l			23c7	 f8
 _incw				0000	 f0
 __ldd_w				0000	 f0
 __pushw				0000	 f0
-LL143				be38	 06
+LL143				be3d	 06
 _put_digit.sub			edf0	 00
 	.l1			edf7	 00
 psg_stack_4			2543	 f8
@@ -1518,15 +1518,15 @@ mulu16				e6f4	 00
 	.l1			e701	 00
 JOY_BITI			0000	 f0
 _cl				20fc	 f0
-LL21				a82d	 06
-LL19				a799	 06
-	.x00986			a7ad	 06
+LL21				a832	 06
+LL19				a79e	 06
+	.x00986			a7b2	 06
 _farpeekw.fast			fb49	 00
 cmp_ok				e8d2	 00
 LL234				b2aa	 08
-LL107				b64a	 06
-	.x01625			b65c	 06
-	.x01623			b652	 06
+LL107				b64f	 06
+	.x01625			b661	 06
+	.x01623			b657	 06
 _bm_delete			f9b9	 00
 IRQ2				0000	 f0
 psg_env0			cbf0	 02
@@ -1534,8 +1534,8 @@ psg_dodata2hdwr			c31f	 02
 _put_digit.2			ede5	 00
 disp_cr				268e	 f8
 cd_port				1800	 f0
-LL92				b3b2	 06
-	.x01535			b3c8	 06
+LL92				b3b7	 06
+	.x01535			b3cd	 06
 psgf_reltransp			c493	 02
 ac_shftreg_2			1ae2	 f0
 __temp				2003	 f8
@@ -1557,17 +1557,17 @@ clock_ss			2691	 f8
 ARG_ABS				0003	 f0
 __stwi_s			0000	 f0
 __ldbp				0000	 f0
-LL56				b33c	 06
+LL56				b341	 06
 psg_freqtbl			ca63	 02
 lib2_bm_getptr.2		af8a	 01
 	.empty			afd5	 01
 	.x2			afd6	 01
 _div32.2			f705	 00
 __phb				0000	 f0
-LL144				be81	 06
-	.x_01911		bebb	 06
-	.x01909			bead	 06
-	.x01905			be97	 06
+LL144				be86	 06
+	.x_01911		bec0	 06
+	.x01909			beb2	 06
+	.x01905			be9c	 06
 psg_dotone			c35b	 02
 vdc_blur			26db	 f8
 build_disp_list			aa5e	 01
@@ -1589,7 +1589,7 @@ __aslws				0000	 f0
 _put_raw.2			ee59	 00
 psg_ch_value			22de	 f8
 _cmpw				0000	 f0
-LL22				a9d4	 06
+LL22				a9d9	 06
 psgf_timebase			c3db	 02
 _load_default_font.1		ed56	 00
 	.x_00237		ed63	 00
@@ -1597,10 +1597,10 @@ scroll_yh			26ec	 f8
 LIB2_BANK			0001	 f0
 JOY_BITRUN			0003	 f0
 LL235				b3cb	 08
-LL110				b7c8	 06
-LL108				b66e	 06
-	.x01631			b680	 06
-	.x01629			b676	 06
+LL110				b7cd	 06
+LL108				b673	 06
+	.x01631			b685	 06
+	.x01629			b67b	 06
 psg_dofreqstuff			c4c2	 02
 psg_pe				c09b	 02
 psg_sweep			24c3	 f8
@@ -1610,8 +1610,8 @@ _put_digit.3			edda	 00
 uge				e964	 00
 psg_duratnmult			237f	 f8
 BGMAP_SIZE_64x64		0005	 f0
-LL93				b3d1	 06
-	.x01540			b3e7	 06
+LL93				b3d6	 06
+	.x01540			b3ec	 06
 _load_palette.3			e363	 00
 JOY_BITIII			0000	 f0
 scroll_disable			0000	 f0
@@ -1630,11 +1630,11 @@ set_intvec			fc0e	 00
 	.vector			fc1e	 00
 _set_tile_data.1		f0ab	 00
 joytrg6				2698	 f8
-LL57				aefe	 06
-	.x01319			af13	 06
+LL57				af03	 06
+	.x01319			af18	 06
 _set_font_pal			ecf2	 00
 JOY_I				0001	 f0
-LL145				be81	 06
+LL145				be86	 06
 _bm_format			f848	 00
 	.setsz			f878	 00
 	.l2			f866	 00
@@ -1651,7 +1651,7 @@ _get_map_height			f0a4	 00
 _put_raw.3			ee4e	 00
 psg_tone_l			25ad	 f8
 joy				2228	 f8
-LL23				a947	 06
+LL23				a94c	 06
 psg_fdout			c1f9	 02
 	.positive		c200	 02
 _bm_check			f806	 00
@@ -1667,8 +1667,8 @@ psg_strikephase			25f5	 f8
 psg_volume			25c5	 f8
 LIB1_BANK			0000	 f0
 LL236				b3df	 08
-LL111				b6a4	 06
-LL109				b7b8	 06
+LL111				b6a9	 06
+LL109				b7bd	 06
 psg_on				c000	 02
 	.noturnoff		c007	 02
 _bm_write.4			f9dd	 00
@@ -1678,8 +1678,8 @@ delay14				b4a8	 01
 psg_keycntdown			2367	 f8
 psg_perchvol			234f	 f8
 ARG_NONE			0000	 f0
-LL94				b3f0	 06
-	.x01545			b406	 06
+LL94				b3f5	 06
+	.x01545			b40b	 06
 _spr_hide			f244	 00
 	.l1			f255	 00
 	.l2			f256	 00
@@ -1708,13 +1708,13 @@ _map_calc_tile_addr		f4f1	 00
 	.l1			f500	 00
 _castle_1			2ad1	 f8
 stb				0000	 f0
-LL60				aec0	 06
-	.x01309			aed6	 06
-LL58				ae82	 06
-	.x01299			ae98	 06
+LL60				aec5	 06
+	.x01309			aedb	 06
+LL58				ae87	 06
+	.x01299			ae9d	 06
 gfx_bittbl			af23	 01
 load_map_exit			a809	 01
-LL146				bebb	 06
+LL146				bec0	 06
 _set_xres.1			f587	 00
 _line_error			297c	 f8
 _cls				ecc6	 00
@@ -1724,20 +1724,20 @@ __subwi				0000	 f0
 __arg_idx			2002	 f8
 __stack				2000	 f8
 scr_width			26d9	 f8
-LL24				a957	 06
-	.x01064			a96d	 06
+LL24				a95c	 06
+	.x01064			a972	 06
 psg_fmdelcntdn			243f	 f8
 ARG_ABSOLUTE			0003	 f0
 psg_wavebuf			0806	 f0
 LL237				b2cc	 08
-LL112				b6ff	 06
+LL112				b704	 06
 _univers_time			299b	 f8
 psg_env3			cc0e	 02
 _clear_joy_events		fac3	 00
 	.l2			fae0	 00
 	.l1			fac7	 00
 clock_mm			2690	 f8
-LL95				b40f	 06
+LL95				b414	 06
 _state_knight			298f	 f8
 _clock_ss			faf1	 00
 LL203				a464	 08
@@ -1775,13 +1775,13 @@ user_jmptbl			2200	 f8
 init_satb			0000	 f0
 set_sprpal			0000	 f0
 cmpw				0000	 f0
-LL61				aedf	 06
-	.x01314			aef5	 06
-LL59				aea1	 06
-	.x01304			aeb7	 06
+LL61				aee4	 06
+	.x01314			aefa	 06
+LL59				aea6	 06
+	.x01304			aebc	 06
 mouspos				fa87	 00
 BGMAP_SIZE_64x32		0001	 f0
-LL147				bebb	 06
+LL147				bec0	 06
 _set_xres.2			f58b	 00
 psg_stack_8			256d	 f8
 lbcs				0000	 f0
@@ -1791,11 +1791,11 @@ psgf_rptend			c45f	 02
 PSG_BANK			0002	 f0
 _dh				20ff	 f0
 _bx				20fa	 f0
-LL25				a870	 06
+LL25				a875	 06
 timer_jmp			2204	 f8
 LL240				b365	 08
 LL238				b2e7	 08
-LL113				b75a	 06
+LL113				b75f	 06
 _frame_knight			298d	 f8
 _put_hex.main			eea3	 00
 	.h4			eed5	 00
@@ -1819,8 +1819,8 @@ psg_env4			cc18	 02
 psg_doenvelope			c4c1	 02
 _spr_pri			f326	 00
 	.l1			f332	 00
-LL96				b41b	 06
-	.x01551			b435	 06
+LL96				b420	 06
+	.x01551			b43a	 06
 _nb_ennemy			2a01	 f8
 HDR				0000	 f0
 maptilebase			26bc	 f8
@@ -1835,7 +1835,7 @@ _castle_3			2ad3	 f8
 _bm_unlock			fa37	 00
 _put_number.4			ee81	 00
 psg_bank2			22e2	 f8
-LL62				aefe	 06
+LL62				af03	 06
 psg_envhdr			22d5	 f8
 nmi_jmp				2206	 f8
 psgport				0800	 f0
@@ -1843,7 +1843,7 @@ __addw_s			0000	 f0
 __andw				0000	 f0
 LL150				a077	 07
 	.x01947			a0ab	 07
-LL148				bf33	 06
+LL148				bf38	 06
 _load_default_font		ed54	 00
 load_map_next_line		a8a0	 01
 	.l5			a92d	 01
@@ -1859,13 +1859,13 @@ load_palette			e363	 00
 ac_data1			1a00	 f0
 _di				20f0	 f0
 __lea_s				0000	 f0
-LL26				a8a5	 06
+LL26				a8aa	 06
 _put_hex.3			ee9e	 00
 scroll_cr			26f8	 f8
 scroll_yl			26e8	 f8
-LL241				b4f4	 08
+LL241				b51c	 08
 LL239				b31a	 08
-LL114				b7e5	 06
+LL114				b7ea	 06
 _clock_mm			faec	 00
 _get_font_addr			ed3c	 00
 __sign				2016	 f8
@@ -1873,8 +1873,8 @@ font_1				6000	 01
 CONST_BANK			0003	 f0
 psg_env5			cc22	 02
 _joyold				fa59	 00
-LL97				b438	 06
-	.x_01554		b44f	 06
+LL97				b43d	 06
+	.x_01554		b454	 06
 psgf_return			c489	 02
 psgf_pedelay			c46d	 02
 psgf_fmdelay			c46a	 02
@@ -1889,8 +1889,8 @@ LL185				ac59	 07
 	.x02427			ac61	 07
 psg_keyonratio			235b	 f8
 __ldb_p				0000	 f0
-LL63				af27	 06
-	.x01327			af3c	 06
+LL63				af2c	 06
+	.x01327			af41	 06
 _com32.1			f706	 00
 	.l1			f70c	 00
 hds				26dd	 f8
@@ -1908,14 +1908,14 @@ user_vsync			e16c	 00
 video_reg_l			0000	 f0
 psgf_octave			c3e5	 02
 SIZE_MASK			0031	 f0
-LL27				a8da	 06
+LL27				a8df	 06
 psg_dofade			c31e	 02
 _poke.2				fb08	 00
 _spr_hide.sub			f25f	 00
 _put_hex.4			ee93	 00
 _put.vram			ee0e	 00
-LL242				b48e	 08
-LL115				bec5	 06
+LL242				b4b6	 08
+LL115				beca	 06
 __rcr_off			e2b8	 00
 font_2				6300	 01
 __extw				0000	 f0
@@ -1926,7 +1926,7 @@ _nmi				e314	 00
 	.user			e318	 00
 VSYNC				0004	 f0
 bram_unlock			1807	 f0
-LL98				b453	 06
+LL98				b458	 06
 __spr_ptr			2018	 f8
 load_map			e387	 00
 	.l1			e3a0	 00
@@ -1944,8 +1944,8 @@ map_data			e323	 00
 	.l1			e334	 00
 scroll_bottom			26f4	 f8
 vec_on				0000	 f0
-LL64				af50	 06
-	.x01335			af65	 06
+LL64				af55	 06
+	.x01335			af6a	 06
 ovlarray			6000	 04
 VADDR_INC_64			0010	 f0
 __negw				0000	 f0
